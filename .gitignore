@@ -1,9 +1,7 @@
 
 .gradle/
 .idea/*
-adapter/build/
-adapter/out/
-model/build/
+*/build/
 */out/
 /gradle/
-
+example.iml
