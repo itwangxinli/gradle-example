@@ -74,8 +74,20 @@ subprojects {
         // 测试依赖
         testCompile(
                 "junit:junit:4.12",
-                'org.scalatest:scalatest_2.12:3.0.5'
+                'org.scalatest:scalatest_2.12:3.0.5',
+                'org.mockito:mockito-all:1.10.19'
         )
 
+    }
+
+    sourceSets {
+        main {
+            scala {
+                srcDirs = ['src/main/scala', 'src/main/java']
+            }
+            java {
+                srcDirs = []
+            }
+        }
     }
 }
