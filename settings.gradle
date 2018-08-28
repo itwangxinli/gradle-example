@@ -8,5 +8,6 @@
  */
 
 rootProject.name = 'example'
-include 'model'
-include 'adapter'
+include ':app:model'
+include ':app:adapter'
+
