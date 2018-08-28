@@ -1,0 +1,9 @@
+
+.gitignore
+.gradle/
+.idea/*
+adapter/build/
+adapter/out/
+model/build/
+*/out/
+
