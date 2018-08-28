@@ -1,6 +1,6 @@
 plugins {
     id 'war'
-    id 'org.springframework.boot' version '2.0.4.RELEASE'
+    id 'org.springframework.boot' version "2.0.4.RELEASE"
 }
 def env = System.getProperty("env") ?: "dev"
 sourceSets {
@@ -15,7 +15,7 @@ sourceSets {
 dependencies {
     compile project(":app:model")
 
-    compile("org.springframework.boot:spring-boot-starter-web:2.0.4.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
 
     compileOnly(
             "javax.servlet:javax.servlet-api:3.1.0",

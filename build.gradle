@@ -11,10 +11,11 @@ apply plugin: 'idea'
 allprojects {
     repositories {
         mavenLocal()
-        maven { url 'http://maven.derbysoft.tm/artifactory/libs-release'}
+        maven { url 'http://maven.derbysoft.tm/artifactory/libs-release' }
         maven { url "https://plugins.gradle.org/m2/" }
         mavenCentral()
     }
+
 
 }
 
@@ -34,7 +35,7 @@ subprojects {
 
     ext {
         scalaVersion = '2.12.6'
-        springBootVersion="2.0.4.RELEASE"
+        springBootVersion = "2.0.4.RELEASE"
     }
 
     task sourceJar(type: Jar) {
