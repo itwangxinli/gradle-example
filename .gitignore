@@ -5,4 +5,5 @@ adapter/build/
 adapter/out/
 model/build/
 */out/
+/gradle/
 
