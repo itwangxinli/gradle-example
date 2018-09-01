@@ -103,3 +103,6 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+.idea/
+app/adapter/.DS_Store
+app/adapter/build/tmp/compileJava/
